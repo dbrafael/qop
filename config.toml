@@ -1,0 +1,36 @@
+[config]
+child = true
+exec = "emacs %1"
+env = ["LSP_USE_PLISTS=true"]
+
+[home]
+key = "~"
+exec = "emacs %1"
+path = "~/"
+args = ["-nw"]
+
+[home.home]
+key = "~"
+
+[home.dotfiles]
+key = "d"
+path = "/home/config/dotfiles"
+
+[home.downloads]
+key = "D"
+path = "+Downloads"
+args = ["--debug-init"]
+env = ["SOMETHING=false"]
+
+[code]
+key = "c"
+path = "~/Code"
+
+[code.rust]
+key = "r"
+path = "+rust"
+
+[code.work]
+key = "w"
+path = "+work"
+
