@@ -27,8 +27,8 @@ This will display a menu allowing you to run the shortcuts defined in your 'mode
 ~~  Home > Home                 emacs      ~/               SOME_ENV
 ~de Home > Dotfiles > Emacs     emacs      ~/.config/emacs
 ~dt Home > Dotfiles > WithArgs  emacs -nw  ~/.config
-~dd Home > Dotfiles > DiffPath  emacs       /home/some/file
-ff  Fun                         ls -a       /
+~dd Home > Dotfiles > DiffPath  emacs      /home/some/file
+ff  Firefox                     librewolf
 ```
 
 ## Config file
@@ -63,11 +63,10 @@ key = "d"
 exec = "emacs"
 path = "/home/some/file"
 
-[fun]
+[firefox]
 key = "ff"
-exec = "ls"
-args = ["-a"]
-path = "/"
+exec = "librewolf"
+
 ```
 
 Commands are composable so you could simplify the config by moving common parts up the tree
