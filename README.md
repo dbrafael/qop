@@ -65,7 +65,7 @@ args = ["-a"]
 path = "/"
 ```
 
-Commands are composable so you couls simplify the config by moving common parts up the tree
+Commands are composable so you could simplify the config by moving common parts up the tree
 ``` toml
 [home]
 key = "~"
