@@ -9,9 +9,9 @@ It's allows you to build and execute a command incrementally. I use it as a rofi
 
 ## Usage:
 
-Qop searches for TOML configuration files in '~/.config/qop/{mode}.toml'
+Qop searches for TOML configuration files in `~/.config/qop/{mode}.toml`
 
-Qop can be called in a specific 'mode' by running:
+Qop can be called in a specific `mode` by running:
 
 ``` sh
 qop -s mode
@@ -21,7 +21,7 @@ or
 qop --show mode
 ```
 
-This will display a menu allowing you to run the shortcuts defined in your 'mode' file
+This will display a menu allowing you to run the shortcuts defined in your `mode` file
 
 ``` text
 ~~  Home > Home                 emacs      ~/               SOME_ENV
