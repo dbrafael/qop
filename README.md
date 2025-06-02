@@ -2,6 +2,11 @@
 This project was literally made in a day and probably isn't ready for you.
 It's allows you to build and execute a command incrementally. I use it as a rofi alternative since I find myself opening like 5 programs from the entire list.
 
+## TODO:
+- Code is very rushed
+- Add some display options (disable parts of the text, truncate breadcrumbs and path, group entries)
+- Some way to run the program without calling alacritty
+
 ## Usage:
 
 Qop searches for TOML configuration files in '~/.config/qop/{mode}.toml'
@@ -19,7 +24,7 @@ qop --show mode
 This will display a menu allowing you to run the shortcuts defined in your 'mode' file
 
 ``` text
-~~  Home > Home                 emacs      ~/         SOME_ENV
+~~  Home > Home                 emacs      ~/               SOME_ENV
 ~de Home > Dotfiles > Emacs     emacs      ~/.config/emacs
 ~dt Home > Dotfiles > WithArgs  emacs -nw  ~/.config
 ~dd Home > Dotfiles > DiffPath  emacs       /home/some/file
