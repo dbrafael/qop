@@ -147,6 +147,7 @@ windowrule = float,        title:qop,
 windowrule = size 600 400, title:qop,
 ```
 This runs an instance of alacritty as a popup and calls qop on it
+Qop has to be installed globally for this to work
 
 ## Building
 ``` sh
